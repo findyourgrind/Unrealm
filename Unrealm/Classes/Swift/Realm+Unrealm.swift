@@ -9,7 +9,7 @@
 import Foundation
 import Realm
 import RealmSwift
-import RuntimeNew
+import Runtime
 
 #if canImport(UnrealmObjC)
 import UnrealmObjC
