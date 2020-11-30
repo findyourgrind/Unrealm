@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/realm/realm-cocoa.git", from: "3.18.0"),
-        .package(url: "https://github.com/arturdev/RuntimeNew.git", from: "2.1.0")
+        .package(url: "https://github.com/wickwirew/Runtime.git", from: "2.1.0")
     ],
     targets: [
         .target(
@@ -19,7 +19,7 @@ let package = Package(
         ),
         .target(
             name: "Unrealm",
-            dependencies: ["UnrealmObjC", "Realm", "RealmSwift", "RuntimeNew"],
+            dependencies: ["UnrealmObjC", "Realm", "RealmSwift", "Runtime"],
             path: "Unrealm/Classes/Swift"
         )
     ],
